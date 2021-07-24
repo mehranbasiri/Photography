@@ -1,0 +1,44 @@
+.service {
+  min-height: 90vh;
+  align-items: center;
+  padding: 5rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  h2 {
+    padding-bottom: 5rem;
+  }
+  p {
+    width: 70%;
+    padding: 2rem 0rem 4rem 0rem;
+  }
+  @media (max-width: 1300px) {
+    text-align: center;
+    display: block;
+  }
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  @media (max-width: 1300px) {
+    justify-content: center;
+  }
+  h3 {
+    margin-left: 1rem;
+    background: white;
+    color: #000;
+    padding: 1rem;
+  }
+}
+.serviceImg {
+  width: 500px;
+  height: 500px;
+}
+.card {
+  flex-basis: 30rem;
+}
+.icon {
+  display: flex;
+  align-items: center;
+}
